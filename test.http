@@ -7,8 +7,17 @@
 #     "password": "1234"
 # }
 
-POST http://localhost:5000/api/auth/login
+# POST http://localhost:5000/api/auth/login
+# content-type: application/json
+
+# {
+#     "username": "amirnz",
+#     "password": "1234"
+# }
+
+PUT http://localhost:5000/api/auth/login
 content-type: application/json
+
 
 {
     "username": "amirnz",
